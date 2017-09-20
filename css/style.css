@@ -1,7 +1,5 @@
 body {
 	/* Vul hieronder het juiste plaatje naar de achtergrond img */
-	color: #ee7600;
-	font-weight:bold;
     background: #000 url('PathNaarPlaatje.jpg');
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9,12 +7,16 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	color: #ee7600;
+	font-weight:bold;
 }
+
 .container {
 	background-color: rgba(122,122,122,0.3);
 	padding:1em;
 	margin: 0 auto;
 }
+
 .veryNiceButton {
 	background-color:#fff;
 }
